@@ -1,4 +1,4 @@
-baseURL = "https://serpentos.com/"
+baseURL = "https://www.serpentos.com/"
 languageCode = "en-us"
 title = "Serpent OS"
 theme = "hugo-sugoi"
