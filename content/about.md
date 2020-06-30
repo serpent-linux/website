@@ -51,6 +51,7 @@ so:
  - Seriously optimised for serious workloads.
  - Third party applications reliant on containers only. No compat-hacks
  - Wayland-only. X11 compatibility via containers will be investigated
+ - Fully stateless with management tools and upstreaming of patches
  - Lots, lots more. We'll blog about it.
 
 #### Opinionated By Default
