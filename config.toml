@@ -1,3 +1,4 @@
 baseURL = "https://serpentos.com/"
 languageCode = "en-us"
 title = "Serpent OS"
+theme = "hugo-sugoi"
