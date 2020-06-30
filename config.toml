@@ -2,3 +2,41 @@ baseURL = "https://serpentos.com/"
 languageCode = "en-us"
 title = "Serpent OS"
 theme = "hugo-sugoi"
+copyright = "Copyright &copy; 2020 Serpent OS Developers<br />"
+
+[params]
+herotitle = "Serpent OS"
+herolink = "https://github.com/serpent-linux/"
+herolinktext = "Check our GitHub"
+contact = "Send me a message and I will get back as soon as possible."
+
+[permalinks]
+    blog = "/blog/:year/:month/:day/:title/"
+
+[menu]
+    [[menu.nav]]
+        name    = "about"
+        pre = "<i class='fas fa-home'></i>"
+        url     = "about"
+        weight  = -1
+    [[menu.nav]]
+        name    = "blog"
+        pre = "<i class='fas fa-list'></i>"
+        url     = "blog"
+        weight  = -2
+
+[privacy]
+    [privacy.disqus]
+        disable = true
+    [privacy.googleAnalytics]
+        disable = true
+    [privacy.instagram]
+        disable = true
+    [privacy.twitter]
+        disable = false
+        enableDNT = false
+        simple = false
+    [privacy.vimeo]
+        disable = true
+    [privacy.youtube]
+        privacyenhanced = true
