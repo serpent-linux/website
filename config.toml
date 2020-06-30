@@ -5,7 +5,7 @@ theme = "hugo-sugoi"
 copyright = "Copyright &copy; 2020 Serpent OS Developers<br />"
 
 [params]
-herotitle = "Serpent OS"
+herotitle = "Under Heavy Development"
 herolink = "https://github.com/serpent-linux/"
 herolinktext = "Check our GitHub"
 contact = "Send me a message and I will get back as soon as possible."
