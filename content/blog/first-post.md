@@ -26,6 +26,8 @@ If you're looking for a modern, lightweight, user-friendly, privacy-focused
 Linux desktop distribution, then you're in the wrong place.
 
 Otherwise, stay tuned for the updates. We know our website is insanely
-basic, but it will be improved when it becomes a priority.
+basic, but it will be improved when it becomes a priority. You're more
+than welcome to join us on `#serpentOS` on freenode to become part of the
+community discussion in the mean time.
 
 Til next time.
