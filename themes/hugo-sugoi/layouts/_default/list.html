@@ -1,0 +1,45 @@
+{{ define "main" }}
+
+<div class="section hero">
+  <div class="container">
+    <div class="row">
+      <h1>{{ .Title }}</h1>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="container">
+    <div class="row">
+      {{ $paginator := .Paginate (where .Site.RegularPages "Type" "post") }}
+      {{ range $paginator.Pages }}
+      <div class="row">
+        <div class="nine columns"> <i class="far fa-calendar"></i> {{.Date.Format "2006-01-02"}}</div>
+        <div class="three columns"> <i class="far fa-clock"></i> Reading Time: {{ .ReadingTime }}
+          {{ .Scratch.Get "readingTime" }}</div>
+      </div>
+      <h4>
+        <a href="{{ .Permalink }}" class="h5 d-block my-3">{{ .Title | markdownify }}</a>
+      </h4>
+      <p class="card-text">{{ .Summary }}</p>
+      <div class="row">
+        <div class="six columns"><a class="button" href="{{ .Permalink }}">Read More</a></div>
+        <div class="six columns">
+          <div class="u-pull-right"> <i class="{{.Params.Icon}}"></i>
+            <span class="category">
+              {{ range .Params.Categories }}
+              <a href="{{ "/categories/" | relLangURL}}{{ . | urlize }}">
+                {{.}}
+              </a>
+            </span>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+    <hr>
+  </div>
+</div>
+
+{{ end }}

@@ -1,0 +1,35 @@
+<div class="section hero">
+    <div class="container">
+        <h3 class="section-heading">Contact Us</h3>
+    </div>
+</div>
+
+<div class="section main">
+    <div class="row content">
+        <div class="docs-section" id="forms">
+            <p>{{ .Site.Params.contact}}</p>
+            <div class="docs-example docs-example-forms">
+                <form>
+                    <div class="row">
+                        <div class="six columns">
+                            <label for="exampleEmailInput">Your email</label>
+                            <input class="u-full-width" type="email" placeholder="test@email.com"
+                                id="exampleEmailInput">
+                        </div>
+                        <div class="six columns">
+                            <label for="exampleRecipientInput">Reason for contacting</label>
+                            <select class="u-full-width" id="exampleRecipientInput">
+                                <option value="Option 1">Questions</option>
+                                <option value="Option 2">Admiration</option>
+                            </select>
+                        </div>
+                    </div>
+                    <label for="exampleMessage">Message</label>
+                    <textarea class="u-full-width" placeholder="Hola &hellip;" id="exampleMessage"></textarea>
+                    <input class="button-primary" type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+        <hr>
+    </div>
+</div>

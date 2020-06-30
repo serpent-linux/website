@@ -1,0 +1,26 @@
+{{ define "main" }}
+
+<div class="section hero">
+    <div class="container">
+        <h1 class="section-heading">{{ .Title }}</h1>
+        {{ if gt .ReadingTime 1 }}
+        {{ .Scratch.Set "readingTime" "minutes" }}
+        {{ else }}
+        {{ .Scratch.Set "readingTime" "minute" }}
+        {{ end }}
+        <i class="far fa-calendar"></i> Published On: {{.Date.Format "2006-01-02"}},
+        <i class="far fa-clock"></i> Reading Time: {{ .ReadingTime }} {{ .Scratch.Get "readingTime" }}
+        </h6>
+    </div>
+</div>
+
+<div class="section main">
+    <div class="row content">
+        <article>
+            {{ .Content }}
+            {{ template "_internal/disqus.html" . }}
+        </article>
+    </div>
+</div>
+
+{{ end }}

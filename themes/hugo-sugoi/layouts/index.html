@@ -1,0 +1,42 @@
+{{ define "main" }}
+
+{{ partial "hero.html" . }}
+
+<div class="section main">
+  <div class="row content">
+    <article>
+      {{ range first 6 (where .Site.RegularPages "Type" "post" )}}
+      {{ if gt .ReadingTime 1 }}
+      {{ .Scratch.Set "readingTime" "minutes" }}
+      {{ else }}
+      {{ .Scratch.Set "readingTime" "minute" }}
+      {{ end }}
+      <div class="row">
+        <div class="nine columns"> <i class="far fa-calendar"></i> {{.Date.Format "2006-01-02"}}</div>
+        <div class="three columns"> <i class="far fa-clock"></i> Reading Time: {{ .ReadingTime }}
+          {{ .Scratch.Get "readingTime" }}</div>
+      </div>
+      <h5>
+        <a href="{{.RelPermalink}}" class="category" alt="{{.Title}}" title="{{.Title}}">{{.Title}}</a>
+      </h5>
+      <p class="card-text">{{ .Summary }}</p>
+      <div class="row">
+        <div class="six columns"><a class="button" href="{{ .Permalink }}">Read More</a></div>
+        <div class="six columns"><div class="u-pull-right"><i class="{{.Params.Icon}}"></i>
+          <span class="category">
+            {{ range .Params.Categories }}
+            <a href="{{ "/categories/" | relLangURL}}{{ . | urlize }}">
+              {{.}}
+            </a>
+          </span>
+          {{ end }}
+        </div>
+        </div>
+      </div>
+    {{ end }}
+  </article>
+  </div>
+  <hr>
+</div>
+
+{{ end }}

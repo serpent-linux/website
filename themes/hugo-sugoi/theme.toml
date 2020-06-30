@@ -1,0 +1,15 @@
+# theme.toml template for a Hugo theme
+# See https://github.com/gohugoio/hugoThemes#themetoml for an example
+
+name = "Sugoi"
+license = "MIT"
+licenselink = "https://github.com/aanupam23/hugo-sugoi/blob/master/LICENSE"
+description = "Hugo-Sugoi is ultra minimal theme built for personal blogs and can be used for learning hugo theme designing. Use this theme for creating an awesome theme."
+homepage = "https://github.com/aanupam23/hugo-sugoi"
+tags = ["responsive", "Minimal", "blog", "modern", "clean","customizable"]
+features = ["responsive", "blog", "modern", "clean","customizable"]
+min_version = "0.41.0"
+
+[author]
+  name = "aanupam23"
+  homepage = "https://github.com/aanupam23/"

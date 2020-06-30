@@ -1,0 +1,302 @@
+a {
+  color: #111;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #0FA0CE;
+}
+
+.toggle,
+input[id="drop"] {
+  display: none;
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+  display: block;
+  background: #222;
+}
+
+nav::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+nav ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0;
+  float: left;
+}
+
+nav ul li>a:only-child::after {
+  content: "";
+}
+
+nav ul li>a::after {
+  content: " ";
+  display: inline;
+  font-family: fontawesome;
+}
+
+nav a {
+  color: #fff;
+  display: block;
+  font-size: 14px;
+  padding: 14px 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav a:link {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background: #333;
+}
+
+nav ul li ul li:hover {
+  background: #444 none repeat scroll 0 0;
+}
+
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 35px;
+}
+
+nav ul li:hover>ul {
+  display: inherit;
+}
+
+nav ul ul li {
+  display: list-item;
+  float: none;
+  position: relative;
+  width: 170px;
+}
+
+nav ul ul ul li {
+  left: 170px;
+  position: relative;
+  top: -60px;
+}
+
+nav ul li>a::after {
+  content: " ";
+  display: inline;
+  font-family: fontawesome;
+}
+
+nav ul li>a:only-child::after {
+  content: "";
+}
+
+@media all and (max-width: 768px) {
+  nav {
+    margin: 0;
+  }
+
+  .toggle+a,
+  .menu {
+    display: none;
+  }
+
+  .toggle {
+    color: #ffffff;
+    display: block;
+    font-size: 22px;
+    padding: 10px 10px;
+    text-decoration: none;
+    text-align: left;
+    cursor: pointer;
+  }
+
+  .toggle:hover {
+    background-color: #333;
+  }
+
+  [id^="drop"]:checked+ul {
+    display: block;
+  }
+
+  nav ul li {
+    display: block;
+    width: 100%;
+  }
+
+  nav ul ul .toggle,
+  nav ul ul a {
+    padding: 0 40px;
+  }
+
+  nav ul ul ul a {
+    padding: 0 80px;
+  }
+
+  nav a,
+  nav ul ul ul a {
+    background-color: #222;
+    text-decoration: none;
+    width: 100%;
+    text-align: left;
+
+  }
+
+  nav a:hover,
+  nav ul ul ul a {
+    background-color: #111;
+    text-decoration: none;
+  }
+
+  nav ul li ul li .toggle,
+  nav ul ul a,
+  nav ul ul ul a {
+    color: #ffffff;
+    font-size: 12px;
+    padding: 10px 15px;
+  }
+
+  nav ul li ul li .toggle,
+  nav ul ul a {
+    background-color: #555;
+  }
+
+  nav ul ul {
+    color: #ffffff;
+    float: none;
+    position: static;
+  }
+
+  nav ul ul li:hover>ul,
+  nav ul li:hover>ul {
+    display: none;
+  }
+
+  nav ul ul li {
+    display: block;
+    width: 100%;
+  }
+
+  nav ul ul ul li {
+    position: static;
+  }
+}
+
+@media all and (max-width: 330px) {
+  nav ul li {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  nav ul {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  nav ul ul {
+    margin-left: 0;
+  }
+}
+
+.button {
+  border-radius: 100px;
+}
+
+.main {
+  background: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  min-height: 400px;
+  padding: 0;
+  width: 92%;
+  margin-top: -100px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+@media (min-width: 400px) {
+  .main {
+    width: 85%;
+    padding: 0;
+  }
+}
+
+@media (min-width: 550px) {
+  .main {
+    margin-top: -100px;
+    width: 80%;
+  }
+}
+
+
+.section {
+  padding: 8rem 0 7rem;
+}
+
+.section-heading,
+.section-description {
+  margin-bottom: 1.2rem;
+}
+
+.hero {
+  background: #222;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 100%;
+  min-height: 200px;
+  color: #eeeeee;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+@media (min-width: 550px) {
+  .hero {
+    min-height: 150px;
+  }
+}
+
+.row.content {
+  padding: 30px;
+  margin-top: -70px;
+}
+
+@media (min-width: 550px) {
+  .row.content {
+    padding: 75px;
+    margin-top: -75px;
+  }
+}
+
+.language-html {
+  color: #444;
+}
+
+.svg-inline--fa {
+  margin-right: 3px;
+}
+
+footer {
+  text-align: center;
+}
