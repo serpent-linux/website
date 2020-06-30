@@ -24,3 +24,8 @@ with stage2 ready. Tooling is next on the agenda.
 
 If you're looking for a modern, lightweight, user-friendly, privacy-focused
 Linux desktop distribution, then you're in the wrong place.
+
+Otherwise, stay tuned for the updates. We know our website is insanely
+basic, but it will be improved when it becomes a priority.
+
+Til next time.
