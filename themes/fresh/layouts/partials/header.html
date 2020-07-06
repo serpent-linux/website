@@ -1,3 +1,5 @@
+{{ $currentPage := . }}
+    
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 
     <a class="navbar-brand" href="#">{{.Site.Params.Title | safeHTML }}</a>
@@ -13,10 +15,9 @@
 
     <!-- Primary nav links -->
     <ul class="navbar-nav mr-auto">
-    {{ $currentPage := . }}
 
     {{ range .Site.Menus.main }}
-    <li class="nav-item {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+    <li class="nav-item {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}">
         <a href="{{ .URL }}" class="nav-link">
             {{ .Pre }}
             {{ .Name }}
