@@ -15,16 +15,20 @@ title = "SERPENT OS"
     blog = "/blog/:year/:month/:day/:title/"
 
 [menu]
-    [[menu.nav]]
-        name    = "about"
-        pre = "<i class='fas fa-home'></i>"
+    [[menu.main]]
+        name = "Home"
+        url = "/"
+        weight = -3
+
+    [[menu.main]]
+        name    = "About"
         url     = "about"
-        weight  = -1
-    [[menu.nav]]
-        name    = "blog"
-        pre = "<i class='fas fa-list'></i>"
+        weight = -2
+
+    [[menu.main]]
+        name    = "Blog"
         url     = "blog"
-        weight  = -2
+        weight = -1
 
     [[menu.social]]
         name = "rss"

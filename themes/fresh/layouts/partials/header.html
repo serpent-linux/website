@@ -2,6 +2,31 @@
 
     <a class="navbar-brand" href="#">{{.Site.Params.Title | safeHTML }}</a>
 
+    <!-- Collapse button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+    aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="basicExampleNav">
+
+    <!-- Primary nav links -->
+    <ul class="navbar-nav mr-auto">
+    {{ $currentPage := . }}
+
+    {{ range .Site.Menus.main }}
+    <li class="nav-item {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+        <a href="{{ .URL }}" class="nav-link">
+            {{ .Pre }}
+            {{ .Name }}
+        </a>
+    </li>
+    {{ end }}
+    </ul>
+
+
+    <!-- Social links //-->
     <ul class="navbar-nav ml-auto nav-flex-icons">
     {{ range .Site.Menus.social }}
         <li class="nav-item">
@@ -11,4 +36,7 @@
         </li>
     {{ end }}
     </ul>
+
+    </div>
+
 </nav>
