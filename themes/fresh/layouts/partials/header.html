@@ -1,6 +1,6 @@
-<nav class="navbar navbar-expand-lg navbar-dark info-color">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 
-    <a class="navbar-brand" href="#">{{.Site.Title | safeHTML }}</a>
+    <a class="navbar-brand" href="#">{{.Site.Params.Title | safeHTML }}</a>
 
     <ul class="navbar-nav ml-auto nav-flex-icons">
     {{ range .Site.Menus.social }}

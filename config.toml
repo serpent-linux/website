@@ -9,6 +9,7 @@ herotitle = "Under Heavy Development"
 herolink = "https://github.com/serpent-linux/"
 herolinktext = "Check our GitHub"
 contact = "Send me a message and I will get back as soon as possible."
+title = "SERPENT OS"
 
 [permalinks]
     blog = "/blog/:year/:month/:day/:title/"
