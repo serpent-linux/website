@@ -25,6 +25,18 @@ contact = "Send me a message and I will get back as soon as possible."
         url     = "blog"
         weight  = -2
 
+    [[menu.social]]
+        name = "rss"
+        url = "/blog/index.xml"
+        pre = "<i class='fas fa-rss'></i>"
+        weight = -1
+
+    [[menu.social]]
+        name = "irc"
+        url = "irc://chat.freenode.net/#serpentOS"
+        pre = "<i class='fas fa-hashtag'></i>"
+        weight = -2
+
 [privacy]
     [privacy.disqus]
         disable = true

@@ -2,4 +2,13 @@
 
     <a class="navbar-brand" href="#">{{.Site.Title | safeHTML }}</a>
 
+    <ul class="navbar-nav ml-auto nav-flex-icons">
+    {{ range .Site.Menus.social }}
+        <li class="nav-item">
+            <a class="nav-link waves-effect waves-light" {{ printf "href=%q" .URL | safeHTMLAttr }}>
+            {{ .Pre }}
+            </a>
+        </li>
+    {{ end }}
+    </ul>
 </nav>
