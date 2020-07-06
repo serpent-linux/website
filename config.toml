@@ -37,6 +37,12 @@ contact = "Send me a message and I will get back as soon as possible."
         pre = "<i class='fas fa-hashtag'></i>"
         weight = -2
 
+    [[menu.social]]
+        name = "github"
+        url = "https://github.com/serpent-linux"
+        pre = "<i class='fab fa-github'></i>"
+        weight = -3
+
 [privacy]
     [privacy.disqus]
         disable = true
