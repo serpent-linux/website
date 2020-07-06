@@ -17,7 +17,18 @@
     <ul class="navbar-nav mr-auto">
 
     {{ range .Site.Menus.main }}
-    <li class="nav-item {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}">
+    {{ $active := false }}
+    {{ if ne .URL "/" }}
+        {{ if hasPrefix $currentPage.URL .URL}}
+            {{ $active = true }}
+        {{ end }}
+    {{ else }}
+        {{ if eq .URL $currentPage.URL }}
+            {{ $active = true }}
+        {{ end }}
+    {{ end }}
+
+    <li class="nav-item {{if $active }} active{{end}}">
         <a href="{{ .URL }}" class="nav-link">
             {{ .Pre }}
             {{ .Name }}
