@@ -1,7 +1,7 @@
 baseURL = "https://www.serpentos.com/"
 languageCode = "en-us"
 title = "Serpent OS"
-theme = "hugo-sugoi"
+theme = "fresh"
 copyright = "Copyright &copy; 2020 Serpent OS Developers<br />"
 
 [params]
