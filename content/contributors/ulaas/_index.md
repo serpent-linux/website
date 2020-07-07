@@ -7,6 +7,7 @@ team: "core"
 draft: false
 desc: "Project Manager and core contributor"
 location: "Turkey"
+email: "ulaas@serpentos.com"
 ---
 
 

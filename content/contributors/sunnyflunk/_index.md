@@ -7,5 +7,6 @@ sponsor: "Awaiting GitHub sponsors membership"
 draft: false
 desc: "Core contributor and performance specialist."
 location: "New Zealand"
+email: "sunnyflunk@serpentos.com"
 ---
 
