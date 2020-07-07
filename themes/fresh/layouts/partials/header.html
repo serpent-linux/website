@@ -5,49 +5,48 @@
     <a class="navbar-brand" href="/">{{.Site.Params.Title | safeHTML }}</a>
 
     <!-- Collapse button -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
-    aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#primaryMenu" aria-controls="primaryMenu" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
 
     <!-- Collapsible content -->
-    <div class="collapse navbar-collapse" id="basicExampleNav">
+    <div class="collapse navbar-collapse" id="primaryMenu">
 
-    <!-- Primary nav links -->
-    <ul class="navbar-nav mr-auto">
+        <!-- Primary nav links -->
+        <ul class="navbar-nav mr-auto">
 
-    {{ range .Site.Menus.main }}
-    {{ $active := false }}
-    {{ if ne .URL "/" }}
-        {{ if hasPrefix $currentPage.URL .URL}}
-            {{ $active = true }}
+        {{ range .Site.Menus.main }}
+        {{ $active := false }}
+        {{ if ne .URL "/" }}
+            {{ if hasPrefix $currentPage.URL .URL}}
+                {{ $active = true }}
+            {{ end }}
+        {{ else }}
+            {{ if eq .URL $currentPage.URL }}
+                {{ $active = true }}
+            {{ end }}
         {{ end }}
-    {{ else }}
-        {{ if eq .URL $currentPage.URL }}
-            {{ $active = true }}
-        {{ end }}
-    {{ end }}
 
-    <li class="nav-item {{if $active }} active{{end}}">
-        <a href="{{ .URL }}" class="nav-link">
-            {{ .Pre }}
-            {{ .Name }}
-        </a>
-    </li>
-    {{ end }}
-    </ul>
-
-
-    <!-- Social links //-->
-    <ul class="navbar-nav ml-auto nav-flex-icons">
-    {{ range .Site.Menus.social }}
-        <li class="nav-item">
-            <a class="nav-link waves-effect waves-light" {{ printf "href=%q" .URL | safeHTMLAttr }}>
-            {{ .Pre }}
+        <li class="nav-item {{if $active }} active{{end}}">
+            <a href="{{ .URL }}" class="nav-link">
+                {{ .Pre }}
+                {{ .Name }}
             </a>
         </li>
-    {{ end }}
-    </ul>
+        {{ end }}
+        </ul>
+
+
+        <!-- Social links //-->
+        <ul class="navbar-nav ml-auto nav-flex-icons">
+        {{ range .Site.Menus.social }}
+            <li class="nav-item">
+                <a class="nav-link waves-effect waves-light" {{ printf "href=%q" .URL | safeHTMLAttr }}>
+                {{ .Pre }}
+                </a>
+            </li>
+        {{ end }}
+        </ul>
 
     </div>
 
