@@ -7,7 +7,11 @@ draft: false
 ### Core Team
 
 
+The Core Team is responsible for the every-day running and development of Serpent OS.
+Together they coordinate milestones, releases and project goals, and implement them
+as required. While each contributor will have a specific domain of interest or expertise,
+they share the workload in building the core of Serpent OS.
+
+
 {{<render_team "core">}}
 
-Please note that more announcements will be made soon for additional team members
-as yet undisclosed.
