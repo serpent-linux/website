@@ -2,6 +2,13 @@
 <main role="main">
     <div class="container page-content">
         {{ .Content }}
+
+        {{ range .Paginator.Pages }}
+        <b>{{.Title}}</b>
+        {{ end }}
+
+        {{ partial "pagination.html" . }}
+
     </div>
 </main>
 
