@@ -4,7 +4,8 @@
         {{ .Content }}
 
         {{ range .Paginator.Pages }}
-        <b>{{.Title}}</b>
+        {{ partial "blogentry.html" . }}
+        <br />
         {{ end }}
 
         {{ partial "pagination.html" . }}
