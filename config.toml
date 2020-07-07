@@ -68,3 +68,4 @@ title = "SERPENT OS"
 [taxonomies]
     author = "authors"
     category = "categories"
+    team_member = "team_members"
