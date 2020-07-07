@@ -14,11 +14,7 @@ Peter has long wanted to get the most out of his computing experience, starting 
 features he didn't use. The desire to over-tinker and use unstable software often led to poor outcomes. While the itch laid dormant for over a decade,
 it has always been there.
 
-    "There's not much about Linux that currently excites me, but I've always wanted to see what's possible with a full LLVM/Clang stack.
-    There's never been a better time to find out, but it can be difficult to push the envelope when limited with backwards compatibility
-    and supporting older CPU architectures". After experimenting with some tool-chain customisations the chance to test them out more broadly
-    and with a new tool-chain was too hard to pass up. This is the research project I've always wanted to undertake and looking forward to
-    using it as my daily driver".
+{{<blockquote "Peter O'Connor (sunnyflunk)" "There's not much about Linux that currently excites me, but I've always wanted to see what's possible with a full LLVM/Clang stack. There's never been a better time to find out, but it can be difficult to push the envelope when limited with backwards compatibility and supporting older CPU architectures. After experimenting with some tool-chain customisations the chance to test them out more broadly and with a new tool-chain was too hard to pass up. This is the research project I've always wanted to undertake and looking forward to using it as my daily driver">}}
 
 We'd like to offically extend our welcome to Peter, as the ramp up gets in place. It should be noted, he is partly to blame for Serpent OS
 becoming manifest, as the core team got together after discussions on IRC. He has some fantastic ideas, and is a brilliant distribution
