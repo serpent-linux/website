@@ -2,8 +2,9 @@
 title: "First Post"
 date: 2020-06-30T16:24:32+01:00
 draft: false
-icon: "fas fa-home"
 type: "post"
+authors: [ikey]
+categories: [news]
 ---
 
 In a nutshell, this post wasn't meant to be coming out for a few weeks.

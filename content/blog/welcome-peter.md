@@ -3,6 +3,8 @@ title: "Welcome Peter"
 date: 2020-07-06T16:12:07+01:00
 draft: false
 type: "post"
+authors: [ikey]
+categories: [news]
 ---
 
 Recently we did reveal on Twitter that long time friend and colleague-of-many-projects, Peter O'Connor, has formally joined the core team for

@@ -2,8 +2,9 @@
 title: "The Great Experiment"
 date: 2020-07-01T19:39:56+01:00
 draft: false
-icon: "fas fa-home"
 type: "post"
+authors: [ikey]
+categories: [news]
 ---
 
 So as many have come to realise, we had to rush out a website super quick yesterday as the cat
