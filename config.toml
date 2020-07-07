@@ -64,3 +64,7 @@ title = "SERPENT OS"
         disable = true
     [privacy.youtube]
         privacyenhanced = true
+
+[taxonomies]
+    author = "authors"
+    category = "categories"
