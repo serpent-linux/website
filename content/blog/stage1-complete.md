@@ -5,6 +5,7 @@ draft: false
 type: "post"
 authors: [ikey]
 categories: [news]
+featuredImage: "/img/blog/stage1-complete/progress.png"
 ---
 
 Short and sweet, stage1 of the bootstrap is complete. As I indicated on the [Lispy Snake](https://lispysnake.com/blog/2020/08/03/status-update/) blog,
