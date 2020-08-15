@@ -49,15 +49,15 @@ title = "SERPENT OS"
         weight = -2
 
     [[menu.social]]
-        name = "github"
-        url = "https://github.com/serpent-linux"
-        pre = "<i class='fab fa-github'></i>"
-        weight = -3
-
-    [[menu.social]]
         name = "twitter"
         url = "https://twitter.com/SerpentLinux"
         pre = "<i class='fab fa-twitter'></i>"
+        weight = -3
+
+    [[menu.social]]
+        name = "github"
+        url = "https://github.com/serpent-linux"
+        pre = "<i class='fab fa-github'></i>"
         weight = -4
 
 [privacy]
