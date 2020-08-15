@@ -54,6 +54,12 @@ title = "SERPENT OS"
         pre = "<i class='fab fa-github'></i>"
         weight = -3
 
+    [[menu.social]]
+        name = "twitter"
+        url = "https://twitter.com/SerpentLinux"
+        pre = "<i class='fab fa-twitter'></i>"
+        weight = -4
+
 [privacy]
     [privacy.disqus]
         disable = true
