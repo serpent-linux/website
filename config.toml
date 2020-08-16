@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Serpent OS"
 theme = "fresh"
 copyright = "Copyright &copy; 2020 Serpent OS Developers<br />"
+paginate = 4
 
 [params]
 herotitle = "Under Heavy Development"
