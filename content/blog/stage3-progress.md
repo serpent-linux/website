@@ -71,7 +71,7 @@ to support `systemd/udev/dbus` directly in Serpent OS and leave alternatives to 
 
 ### Other News
 
-Just a quick heads up, we've been talking to the cool folks over at [https://fosshost.org/](fosshost.org)
+Just a quick heads up, we've been talking to the cool folks over at [fosshost.org](https://fosshost.org/)
 and they've agreed to kindly provide us with additional hosting and mirroring. This will allow us to
 build scale in from the very start, ensuring updates and images are always available. Once the new server
 is up and running we'll push another blogpost with the details and links.
