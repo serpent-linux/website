@@ -28,31 +28,19 @@
 
                 <div class="step-content grey lighten-3">
                     <p>Use the complete environment from stage1 to produce a <strong>complete</strong>, functional, toolchain.</p>
-                    <p>High level requirement includes the ability to reliably cross-compile for each supported target, without any host dependency.</p>
-                </div>
-            </li>
-
-            <!-- Stage 2.5 //-->
-            <li class="active">
-                <a href="#">
-                    <span class="circle">2.5</span>
-                    <span class="label">Stage 2.5</span>
-                </a>
-
-                <div class="step-content grey lighten-3">
-                    <p>Populate sysroot via native <code>chroot</code> builds to support bootstrap of stage3 through libraries</p>
+                    <p>This intermediate toolchain will be used in stage3 to completely build the system.</p>
                 </div>
             </li>
 
             <!-- Stage 3 //-->
-            <li>
+            <li class="active">
                 <a href="#">
                     <span class="circle">3</span>
                     <span class="label">Stage 3</span>
                 </a>
 
                 <div class="step-content grey lighten-3">
-                    <p>Use stage2 to build a chrootable image that is then rebuilt against itself.</p>
+                    <p>Natively build root filesystem using stage2 as a support runtime.</p>
                     <p>At this point, the image is said to be fully self-hosting and is a fully native toolchain, not a cross-compilation toolchain.</p>
                 </div>
             </li>
