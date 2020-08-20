@@ -68,10 +68,9 @@ negative actors, had come to an end.
 
 #### Support / Community
 
-We will only accept community involvement via our IRC channel: `#serpentOS` on Freenode.
-We will not operate a public bug tracker or forums. Once we are past out initial bootstrap
-phase we will set up an email address to help reporting security issues to the team, and
-we will of course release security notices.
+Most development discussions happen on our IRC channel, `#serpentOS`, which can be found on
+freenode. We're currently in the process of establishing a [Phabricator instance](https://dev.serpentos.com) to handle
+bug reports, security issues and project contributions.
 
 In terms of feature requests, these will be largely at the discretion of core contributors.
 When a company has been formed to house this project, we're happy to hash out an SLA for
