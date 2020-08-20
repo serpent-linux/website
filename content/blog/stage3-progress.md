@@ -97,7 +97,7 @@ With the speed we're moving at, that really isn't too far away.
 
 #### And finally..
 
-I personally wish to thank the Sepent OS team as a whole for the commitment and work undertaken of late.
+I personally wish to thank the Serpent OS team as a whole for the commitment and work undertaken of late.
 Additionally I want to thank the growing community around Serpent OS, primarily residing in our IRC
 channel (`#serpentOS` on freenode) and our Twitter account. Your input has been amazing, and it's
 so refreshing to have so many people on the same page. Stay awesome.
