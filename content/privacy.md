@@ -8,7 +8,9 @@ Our core policy, in laymans terms, is:
     We don't want or need your data.
     
 ### Definitions
-**Content Vs Personally Identifiable Data**: We identify content as willing provided and becoming a central part of the platform. It is at the user's discretion if they provide their real name or not (except in the case of code contributions). By submitting content, you agree that it will remain part of the target platform (i.e. Phabricator) as long as it is consistent with community guidelines (in which case we may remove offensive content.)
+
+**Content Vs Personally Identifiable Data**: We identify content as willingly provided and becoming a central part of the platform. It is at the user's discretion if they provide their real name or not (except in the case of code contributions). By submitting content, you agree that it will remain part of the target platform (i.e. Phabricator) as long as it is consistent with community guidelines (in which case we may remove offensive content.)
+
 **Contributons**: We require code contributions to be made under an identifiable name, for the purposes of security audits and git history. Additionally, submitting code is understood to be within compliance with the software license of the project in question, and is outside the purview of the GDPR. When submitted, code contributions form a static part of the git history of a given project and cannot be removed. They can only be removed from the used code and git tree, and will not be removed unless there is a valid, software-engineering reason to do so (i.e. compliance, usefulness).
 
 ### 1. Data protection principles
@@ -23,32 +25,38 @@ e. kept in a form which permits identification of data subjects for no longer th
 f. processed in a manner that ensures appropriate security of the personal data, including protection against unauthorised or unlawful processing and against accidental loss, destruction or damage, using appropriate technical or organisational measures.”
 
 ### 2.General provisions
+
 a. This policy applies to all personal data processed by Serpent OS. 
 b. this policy may be updated at any time, without notice. This policy shall be reviewed at least annually. 
 c. By using Serpent OS, or our services, you agree to all terms of our Privacy Policy.
 
-### 3. Lawful, fair and transparent processing 
-a. To ensure its processing of data is lawful, fair and transparent, SerpentOS shall maintain a Register of Services. 
+### 3. Lawful, fair and transparent processing
+
+a. To ensure its processing of data is lawful, fair and transparent, Serpent OS shall maintain a Register of Services. 
 b. The Register of Services shall be reviewed at least annually. 
-c. SerpentOS services are defined as its primary website, its [Tracker](https://dev.serpentos.com)
+c. Serpent OS services are defined as its primary website, its [Tracker](https://dev.serpentos.com)
 and its downloads (packages + OS Image Files).
-c. Individuals have the right to access their personal data and any such requests made to SerpentOS shall be dealt with in a timely manner, in line with Article 15 of the GDPR. 
+c. Individuals have the right to access their personal data and any such requests made to Serpent OS shall be dealt with in a timely manner, in line with Article 15 of the GDPR. 
 
 ### 4. Lawful purposes
+
 a. All data processed by Serpent OS must be done on one of the following lawful bases: consent, contract, legal obligation, vital interests, public task or legitimate interests. 
 b. Where consent is relied upon as a lawful basis for processing data, evidence of opt-in  consent shall be kept with the personal data. 
 c. Where communications are sent to individuals based on their consent, the option for the individual to revoke their consent should be clearly available and systems should be in place to ensure such revocation is reflected accurately.  
 
 ### 5. Data minimisation
+
 a. Serpent OS shall ensure that personal data are adequate, relevant and limited to what is necessary in relation to the purposes for which they are processed. 
 
 ### 6. Accuracy
+
 a. Serpent OS shall take reasonable steps to ensure personal data is accurate. 
 b. Where necessary for the lawful basis on which data is processed, steps shall be put in place to ensure that personal data is kept up to date. 
    
 ### 7. Archiving / removal
+
 a. Serpent OS will ensure that personal data is kept for no longer than necessary.
-b. Serpent OS cannot delete content in many cases, and will not attempt to do so, unless it is not in compliance with community guidelines (i.e. offensive content). Instead SerpentOS can delete associated data, by ghosting an account, and therefore removing all personal identifiable information. This is applicable only to our content platforms, as our other services have no access to any kind of personally identifable information.
+b. Serpent OS cannot delete content in many cases, and will not attempt to do so, unless it is not in compliance with community guidelines (i.e. offensive content). Instead Serpent OS can delete associated data, by ghosting an account, and therefore removing all personal identifiable information. This is applicable only to our content platforms, as our other services have no access to any kind of personally identifable information.
 For user account deletion, it is not feasible to achieve this with Phabricator, as it becomes a core part of the state and working tree. Instead, Serpent OS will 'ghost' an account, by removing any personally identifying information such as the account username or 'real name' field, and deactivating the account against further login attempts.
 Serpent OS cannot, and will not, modify any content containing personally identifying information that the user has submitted, as it would invalidate the history of discussions and software development.
 c. Serpent OS services and server network do not deliberately collect any identifying information. Serpent OS only provides online services over HTTPS (SSL) and at most the servers create automatic access logs with the IP address and timestamp. These logs are only used in short-term analysis to detect any malicious activity from bad actors and potential security breaches. No personally identifying information is attached to the log files and they are automatically purged within a 4-week window.
@@ -64,6 +72,7 @@ At times, we may link to or include third-party content on our website. These in
 The above links will take you to the terms of service and/or privacy policy for those websites. As such, those particular services **may** set cookies on your machine, or process data separately from Serpent OS. As such you should refer to their terms for how your data is processed.
 
 ### 9. Security
+
 a. Serpent OS shall ensure that personal data is stored securely using modern software that is kept-up-to-date. 
 b. Access to personal data shall be limited to personnel who need access and appropriate security should be in place to avoid unauthorised sharing of information. 
 c. When personal data is deleted this should be done safely such that the data is irrecoverable. 
