@@ -13,8 +13,11 @@ development properly starting towards the end of July.
 Eventually our plan is to rebrand as 'Serpent Linux\*' - however we will first need to
 complete some early donkey work and apply for a sublicense to use the name. As explained
 below, this is _not_ Serpent 'GNU/Linux' as the distribution will not be dependent on
-a GNU toolchain or runtime. For those who are curious, we're working with an artist to
-choose an appropriate logo for the project.
+a GNU toolchain or runtime.
+
+#### Logo
+
+Our logo was kindly contributed by Rıza Türker.
 
 #### Aims
 
