@@ -75,12 +75,3 @@ bug reports, security issues and project contributions.
 In terms of feature requests, these will be largely at the discretion of core contributors.
 When a company has been formed to house this project, we're happy to hash out an SLA for
 required works.
-
-#### Timescale
-
-It may seem incredibly odd launching a website before there is a distro to show off, however,
-it became very apparent that the cat would be out of the bag, so we wanted to be prepared.
-
-Currently, the Founder is in the midst of relocating to the Republic of Ireland. Once complete
-we'll move to stage2 of our bootstrap process and begin working on the tooling needed for the
-base development.
