@@ -11,9 +11,7 @@ development properly starting towards the end of July.
 #### Naming
 
 Eventually our plan is to rebrand as 'Serpent Linux\*' - however we will first need to
-complete some early donkey work and apply for a sublicense to use the name. As explained
-below, this is _not_ Serpent 'GNU/Linux' as the distribution will not be dependent on
-a GNU toolchain or runtime.
+complete some early donkey work and apply for a sublicense to use the name.
 
 #### Logo
 
@@ -49,7 +47,7 @@ so:
  - Mixed source/binary distribution
  - Moving away from `x86_64-generic` baseline to newer CPUs, including Intel and AMD specific optimisations
  - Capability based subscriptions in package manager (Hardware/ user choice / etc)
- - `UEFI` only. No more legacy boot.
+ - `UEFI` only for `x86_64` hardware. No more legacy boot.
  - Completely open source, down to the bootstrap / rebuild scripts
  - Seriously optimised for serious workloads.
  - Third party applications reliant on containers only. No compat-hacks
