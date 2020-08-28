@@ -23,7 +23,7 @@ it more modular and easy to maintain in the long run.
 
 #### libwildebeest
 
-We began work on [libwildebeest]https://dev.serpentos.com/source/libwildebeest/ to quickly unlock building `systemd`.
+We began work on [libwildebeest](https://dev.serpentos.com/source/libwildebeest/) to quickly unlock building `systemd`.
 Remember, our ambition with this project is to provide a sane, centralised way of
 maintaining source compatibility with various projects that rely on features currently
 only available in the GNU toolchain + runtime. This is our alternative vision to
