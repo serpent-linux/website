@@ -55,7 +55,7 @@ patching has been done, so do **not** use in a production environment.
 
 The image is provided currently as a means to validate the LLVM/musl toolchain.
 
-{{<figure_screenshot_one image="stage3-complete/Docker" caption="Serpent OS stage3 Docker image">}}
+{{<figure_screenshot_one image="stage3-complete/Featured" caption="Serpent OS stage3 Docker image">}}
 
 ### Future ISO
 
