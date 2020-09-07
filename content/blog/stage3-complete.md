@@ -60,7 +60,7 @@ The image is provided currently as a means to validate the LLVM/musl toolchain.
 ### Future ISO
 
 We cannot currently say when we'll **definitely** have an ISO, however we do
-know that some VM-specific images will arrive first. Afte that we'll focus
+know that some VM-specific images will arrive first. After that we'll focus
 on an installer (package selection based) and a default developer experience.
 All we can say is strap in, and enjoy the ride.
 
