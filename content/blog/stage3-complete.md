@@ -12,7 +12,7 @@ we've completed the initial Stage3 bootstrap. While we have some parallel
 works to complete for Stage 4, we can now begin to work on the exciting
 pieces! We're now bootstrapped on ARMv8(-a) and x86_64
 
-{{<figure_screenshot_one image="stage3-complete/Featured" caption="Complete build-target for x86_64">}}
+{{<figure_screenshot_one image="stage3-complete/Build" caption="Complete build-target for x86_64">}}
 
 
 ### Announcing Moss
