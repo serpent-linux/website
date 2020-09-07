@@ -70,9 +70,5 @@ negative actors, had come to an end.
 #### Support / Community
 
 Most development discussions happen on our IRC channel, `#serpentOS`, which can be found on
-freenode. We're currently in the process of establishing a [Phabricator instance](https://dev.serpentos.com) to handle
-bug reports, security issues and project contributions.
-
-In terms of feature requests, these will be largely at the discretion of core contributors.
-When a company has been formed to house this project, we're happy to hash out an SLA for
-required works.
+freenode. You can join our [Phabricator](https://dev.serpentos.com) instance to contribute code, ideas and fixes, or
+even our [GitHub](https://github.com/serpent-linux).
