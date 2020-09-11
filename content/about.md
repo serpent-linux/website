@@ -4,9 +4,13 @@ date: 2020-06-30T16:39:03+01:00
 draft: false
 ---
 
-Serpent OS is (or at least, will be) a Linux distribution with notably different goals
-from the mainstream offering. We're in the process of establishing the project, with
-development properly starting towards the end of July.
+Serpent OS is building a pioneering new Linux distribution, with a focus on cutting edge technologies in a 100% open source project.
+
+Our aims:
+
+ - Infinitely forkable
+ - Infinitely flexible
+ - Infinitely reliable
 
 #### Naming
 
@@ -17,22 +21,7 @@ complete some early donkey work and apply for a sublicense to use the name.
 
 Our logo was kindly contributed by Rıza Türker.
 
-#### Aims
-
-The vast majority of Linux distributions have highly similar goals, and can be best
-described using these common industry buzzwords:
-
-    Modern, lightweight, privacy oriented/respecting, user-friendly desktop
-
-We're focused on building a Linux distribution that serves our own needs.
-Chiefly, a Linux distribution for people who want to use Linux, not a "Linux-based-OS"
-focusing on interoptability with macOS\* + Windows\*.
-
-In a nut shell, this is __not__ "Linux for the masses". This is a project setting out to
-use Linux as Linux should be used. This will in turn help us to build a significantly
-advanced Linux distribution that is both modular and optimised for modern machines.
-
-#### A Truly Modern Linux Distribution
+#### A Pioneering Linux Distribution
 
 As we're taking a distro-first, compatibility-later approach, our design decisions
 will allow us to take some bold steps. We'll also be able to incorporate all of the
@@ -41,7 +30,7 @@ so:
 
  - No more usrbin split
  - 100% clang-built throughout (including kernel)
- - musl as libc, relying on compiler optimisations instead of inline asm
+ - musl as libc for improved portability and debugging
  - `libc++` instead of `libstdc++`
  - LLVM's binutils variants (`lld`, `as`, etc.)
  - Mixed source/binary distribution
@@ -53,6 +42,9 @@ so:
  - Third party applications reliant on containers only. No compat-hacks
  - Wayland-only. X11 compatibility via containers will be investigated
  - Fully stateless with management tools and upstreaming of patches
+ - Atomic updates + rollbacks with a seriously powerful package manager
+ - Read only rootfs for improved security
+ - Live kernel patching
  - Lots, lots more. We'll blog about it.
 
 #### Opinionated By Default
