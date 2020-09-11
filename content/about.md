@@ -47,18 +47,6 @@ so:
  - Live kernel patching
  - Lots, lots more. We'll blog about it.
 
-#### Opinionated By Default
-
-A recurring theme that holds back the development of world-class Linux, is high tolerance
-for those holding Linux back. A perfect example is NVIDIA\* and their lack of support for
-accelerated Wayland support on their GPUs. Consequently, our project won't tolerate such
-decisions and will instead blacklist the NVIDIA proprietary drivers from the distribution.
-
-There are other examples that will emerge over time, and will become quite clear.
-
-The time for Linux distributions giving in, with thousands of man hours wasted working around
-negative actors, had come to an end.
-
 #### Support / Community
 
 Most development discussions happen on our IRC channel, `#serpentOS`, which can be found on
