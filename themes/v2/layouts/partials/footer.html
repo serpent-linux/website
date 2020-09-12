@@ -2,10 +2,21 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
-<footer class="page-footer footer text-muted text-dark">
-    <div class="py-3 px-3 text-center">
-        <small>
-        {{.Site.Copyright | safeHTML}}
-        </small>
+<footer class="page-footer footer text-dark">
+    <div class="container py-3 px-3">
+        <div class="row">
+            <div class="col-4">
+                <small class="text-muted">
+                {{.Site.Copyright | safeHTML}}
+                </small>
+            </div>
+            <div class="col-4"></div>
+            <div class="col-4 text-right">
+                <small>
+                    <a href="/privacy" class="text-muted">Privacy Policy</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/privacy" class="text-muted">About</a>
+                </small>
+            </div>
+        </div>
+    </div>
     </div>
 </footer>

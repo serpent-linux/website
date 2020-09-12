@@ -20,21 +20,16 @@ title = "SERPENT OS"
     [[menu.main]]
         name    = "Blog"
         url     = "/blog/"
-        weight = -4
+        weight = -3
 
     [[menu.main]]
         name = "Team"
         url = "/team/"
-        weight = -3
+        weight = -2
 
     [[menu.main]]
         name = "Tracker"
         url = "https://dev.serpentos.com/"
-        weight = -2
-
-    [[menu.main]]
-        name = "Privacy"
-        url = "/privacy/"
         weight = -1
 
     [[menu.main]]
