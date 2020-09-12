@@ -18,16 +18,6 @@ title = "SERPENT OS"
 [menu]
 
     [[menu.main]]
-        name = "Home"
-        url = "/"
-        weight = -6
-
-    [[menu.main]]
-        name    = "About"
-        url     = "/about/"
-        weight = -5
-
-    [[menu.main]]
         name    = "Blog"
         url     = "/blog/"
         weight = -4
