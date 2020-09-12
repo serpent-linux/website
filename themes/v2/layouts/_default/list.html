@@ -7,6 +7,10 @@
 
     <div class="container page-content">
     {{ .Content }}
+
+        {{ range .Paginator.Pages }}
+        {{ partial "blogentry.html" . }}
+        {{ end }}
     </div>
 
 </main>

@@ -1,0 +1,16 @@
+<div class="pt-3 bg-transparent px-5 py-4 border-bottom">
+    <div class="row">
+        <div class="col-4">
+            <img src="{{.Params.FeaturedImage}}" width="100%" />
+        </div>
+        <div class="col">
+            <h5 class="title text-info">{{.Title}} <small class="text-right float-right text-muted">{{ .Date.Format "Monday, January 2, 2006" | safeHTML }}</small></h5>
+            <br />
+            <p>
+                {{.Summary}}
+            </p>
+            <a class="float-right pull-right text-info" href="{{.Permalink}}">Read More</a>
+        </div>
+        <a class="hide-text stretched-link" href="{{.Permalink}}"></a>
+    </div>
+</div>
