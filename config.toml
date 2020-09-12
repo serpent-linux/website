@@ -28,7 +28,7 @@ title = "SERPENT OS"
         weight = -2
 
     [[menu.main]]
-        name = "Tracker"
+        name = "Development"
         url = "https://dev.serpentos.com/"
         weight = -1
 
