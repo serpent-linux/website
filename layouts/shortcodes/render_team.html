@@ -2,7 +2,7 @@
 {{ with ($.Site.GetPage (printf "/%s" "contributors")) }}
     <div class="card-deck">
         {{ range .Pages }}
-        <div class="card">
+        <div class="card shadow">
             <div class="card-body">
                 <h4 class="card-title">{{.Params.name | safeHTML }}</h4>
                 <hr />
