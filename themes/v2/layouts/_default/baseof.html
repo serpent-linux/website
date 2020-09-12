@@ -2,15 +2,42 @@
 <html lang="en">
     {{- partial "head.html" . -}}
     <style>
-        main .page-content {
-            margin-top: 60px;
-        }
+    * {
+        box-sizing: border-box;
+    }
+    *:before,
+    *:after {
+        box-sizing: border-box;
+    }
+    html,
+    body {
+        height: 100%;
+        position: relative;
+    }
+    .main-container {
+        min-height: 100vh;
+        overflow: hidden;
+        display: block;
+        position: relative;
+        padding-bottom: 180px;
+    }
+    footer.page-footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+    main .page-content {
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
     </style>
     <body>
+        <div class="main-container">
         {{- partial "header.html" . -}}
         <div id="content">
-            {{- block "main" . }}{{- end }}
+        {{- block "main" . }}{{- end }}
         </div>
         {{- partial "footer.html" . -}}
+        </div>
     </body>
 </html>
