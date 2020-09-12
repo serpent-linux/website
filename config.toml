@@ -28,13 +28,13 @@ title = "SERPENT OS"
         weight = -2
 
     [[menu.main]]
-        name = "Development"
-        url = "https://dev.serpentos.com/"
+        name = "Sponsors"
+        url = "/sponsors/"
         weight = -1
 
     [[menu.main]]
-        name = "Sponsors"
-        url = "/sponsors/"
+        name = "Development"
+        url = "https://dev.serpentos.com/"
         weight = 0
 
     [[menu.social]]
