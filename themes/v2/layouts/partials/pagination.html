@@ -1,0 +1,28 @@
+{{ $paginator := .Paginate (where .Pages "Type" "posts") }}
+{{ if gt $paginator.TotalPages 1 }}
+
+<br />
+<br />
+<nav aria-label="Post navigation by page">
+    <ul class="pagination justify-content-center">
+        <li class="page-item {{if eq $paginator.PageNumber 1 }}disabled{{end}}"><a class="page-link" href="{{$paginator.First.URL}}">First</a></li>
+        <li class="page-item {{ if eq $paginator.HasPrev false }}disabled{{end}}">
+            <a class="page-link" aria-label="Previous" {{if eq $paginator.HasPrev false}}href="#" {{else}} href="{{$paginator.Prev.URL}}" {{end}}>
+                <span aria-hidden="true">&laquo;</span>
+                <span class="sr-only">Previous</span>
+            </a>
+        </li>
+        {{ range $paginator.Pagers }}
+        <li class="page-item {{ if eq .URL $paginator.URL }} active {{end}}"><a class="page-link" href="{{.URL}}">{{.PageNumber}}</a></li>
+        {{ end }}
+        <li class="page-item {{ if eq $paginator.HasNext false }}disabled{{end}}">
+                <a class="page-link" aria-label="Next" {{if eq $paginator.HasNext false}}href="#" {{else}} href="{{$paginator.Next.URL}}" {{end}}>
+                        <span aria-hidden="true">&raquo;</span>
+                        <span class="sr-only">Next</span>
+                </a>
+        </li>
+        <li class="page-item {{if eq $paginator.PageNumber $paginator.TotalPages }}disabled{{end}}"><a class="page-link" href="{{$paginator.Last.URL}}">Last</a></li>
+    </ul>
+</nav>
+
+{{ end }}
