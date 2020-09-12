@@ -1,6 +1,6 @@
 ---
 name: "News"
-color: "primary-color"
+color: "secondary"
 ---
 
 Every-day Serpent OS news
