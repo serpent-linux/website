@@ -37,18 +37,19 @@
         </li>
         {{ end }}
         </ul>
-    </div>
 
         <!-- Social links //-->
         <ul class="navbar-nav ml-auto nav-flex-icons">
         {{ range .Site.Menus.social }}
             <li class="nav-item">
-                <a class="nav-link" {{ printf "href=%q" .URL | safeHTMLAttr }}>
+                <a class="nav-link" alt="{{.Name}}" {{ printf "href=%q" .URL | safeHTMLAttr }}>
                 {{ .Pre }}
                 </a>
             </li>
         {{ end }}
         </ul>
+    </div>
+
 </nav>
 
 </header>
