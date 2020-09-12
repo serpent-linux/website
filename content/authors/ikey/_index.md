@@ -1,6 +1,6 @@
 ---
 name: "Ikey Doherty"
-role: "Architect"
+role: "BDFL"
 ---
 
-Lead architect and engineer for Serpent OS
+"Benevolent dictator for life" for Serpent OS
