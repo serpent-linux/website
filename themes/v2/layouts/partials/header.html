@@ -15,7 +15,7 @@
     <div class="collapse navbar-collapse" id="primaryMenu">
 
         <!-- Primary nav links -->
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav mr-auto">
 
         {{ range .Site.Menus.main }}
         {{ $active := false }}
@@ -38,6 +38,17 @@
         {{ end }}
         </ul>
     </div>
+
+        <!-- Social links //-->
+        <ul class="navbar-nav ml-auto nav-flex-icons">
+        {{ range .Site.Menus.social }}
+            <li class="nav-item">
+                <a class="nav-link" {{ printf "href=%q" .URL | safeHTMLAttr }}>
+                {{ .Pre }}
+                </a>
+            </li>
+        {{ end }}
+        </ul>
 </nav>
 
 </header>
