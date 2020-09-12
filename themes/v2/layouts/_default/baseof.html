@@ -1,11 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     {{- partial "head.html" . -}}
+    <style>
+        main {
+            margin-top: 100px;
+        }
+    </style>
     <body>
         {{- partial "header.html" . -}}
-        <div id="content">
-        {{- block "main" . }}{{- end }}
-        </div>
+        <main role="main">
+                <div id="content">
+
+                {{- block "main" . }}{{- end }}
+                </div>
+        </main>
         {{- partial "footer.html" . -}}
     </body>
 </html>
