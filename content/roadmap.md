@@ -4,14 +4,11 @@ date: 2020-07-07T00:10:11+01:00
 draft: false
 ---
 
-#### The Roadmap
+During our early stages of development we're taking our time, to ensure each decision that
+we make will stand the test of time and ensure sustainability. 
 
-Building a distribution is arguably a trivial thing to do. Doing it __right__, however, is much
-more difficult. As we've detailed elsewhere, we're taking things slowly to allow the planning
-discussions to happen.
-
-Detailed below is the progress roadmap to a self-hosting binary distribution. Note our goal is
-to support a mixed source/binary distribution, but that requires being able to self build with
-__consistency__ and __reproducability__, through every step.
+We're making steady progress, and right now we're in **Stage 4** of bootstrap. That means
+much of the initial ground work is now complete, with work having started on the new package
+manager.
 
 {{<roadmap_bootstrap>}}
