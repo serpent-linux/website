@@ -19,7 +19,7 @@ pieces! We're now bootstrapped on ARMv8(-a) and x86_64
 ### Announcing Moss
 
 Our immediate focus is now to implement our package manager: [moss](https://github.com/serpent-linux/moss).
-Currently it only has a trivial CLI and does absolutely nothing. We will now shift our focus
+Currently it only has a trivial CLI and does absolutely nothing. We will now shift our attention
 to implement this as a core part of the Stage 4 bootstrap. Moss is so-called as we're a rolling
 release, _a rolling stone gathers no moss_. The package manager is being implemented in the D Programming Language.
 
