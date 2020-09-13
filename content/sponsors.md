@@ -2,6 +2,7 @@
 title: "Sponsors"
 date: 2020-08-22T13:43:09+01:00
 draft: false
+Callout: "Awesome people make Serpent OS awesome."
 ---
 
 Serpent OS wouldn't be possible without the hard work of the core [Team](/team/) and the support of

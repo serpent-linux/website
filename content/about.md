@@ -2,6 +2,7 @@
 title: "About"
 date: 2020-06-30T16:39:03+01:00
 draft: false
+Callout: "We have opinions, so we listed some of them."
 ---
 
 Serpent OS is building a pioneering new Linux distribution, with a focus on cutting edge technologies in a 100% open source project.

@@ -2,6 +2,8 @@
 title: "Privacy"
 date: 2020-08-22T02:17:16+01:00
 draft: false
+Callout: "Serpent OS will always respect your privacy"
+
 ---
 Our core policy, in laymans terms, is:
 

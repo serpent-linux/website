@@ -1,6 +1,17 @@
 {{ define "main" }}
 <main role="main">
 
+    {{ if hasPrefix .URL "/blog/" }}
+    {{ else }}
+    <!-- Big Pretty Banner //-->
+    <center>
+        <div class="jumbotron jumbotron-fluid bg-info text-light">
+            <h1>{{.Params.Title}}</h1>
+            <p class="lead">{{.Params.Callout}}</p>
+        </div>
+    </center>
+    {{ end }}
+
     <div class="container page-content">
         {{ if hasPrefix .URL "/blog/" }}
             <div class="col-12 py-2">
