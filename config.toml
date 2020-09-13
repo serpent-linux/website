@@ -19,6 +19,11 @@ featuredPost = "/blog/scaling-our-infrastructure"
 [menu]
 
     [[menu.main]]
+        name    = "Roadmap"
+        url     = "/roadmap/"
+        weight = -4
+
+    [[menu.main]]
         name    = "Blog"
         url     = "/blog/"
         weight = -3
