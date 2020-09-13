@@ -2,6 +2,7 @@
 title: "Defining Moss"
 date: 2020-09-10T16:02:48+01:00
 draft: false
+type: "post"
 authors: [ikey]
 categories: [news]
 featuredImage: "/img/blog/defining-moss/Featured.png"

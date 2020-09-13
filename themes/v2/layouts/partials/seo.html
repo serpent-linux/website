@@ -1,0 +1,8 @@
+<meta property="og:title" content="{{.Title}}" />
+<meta property="og:url" content="{{.Permalink}}" />
+{{ if eq .Page.Type "post" }}
+<meta property="og:image" content="{{.Site.BaseURL}}{{.Params.FeaturedImage}}" />
+<meta property="og:type" content="article" />
+{{ else }}
+<meta property="og:type" content="website" />
+{{ end }}

@@ -2,6 +2,7 @@
 title: "Looking Stage4 In The Eye"
 date: 2020-08-28T21:35:16+01:00
 draft: false
+type: "post"
 authors: [ikey]
 categories: [news]
 featuredImage: "/img/blog/looking-stage4-in-the-eye/FeaturedSD.png"

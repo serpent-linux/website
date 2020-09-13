@@ -2,6 +2,7 @@
 title: "Scaling Our Infrastructure"
 date: 2020-08-22T14:25:56+01:00
 draft: false
+type: "post"
 authors: [ikey]
 categories: [news]
 featuredImage: "/img/blog/scaling-our-infrastructure/featured.png"

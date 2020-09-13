@@ -2,6 +2,7 @@
 title: "Stage3 Complete"
 date: 2020-09-07T18:39:24+01:00
 draft: false
+type: "post"
 authors: [ikey]
 categories: [news]
 featuredImage: "/img/blog/stage3-complete/Featured.png"
