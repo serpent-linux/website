@@ -17,21 +17,26 @@ featuredPost = "/blog/stage3-complete"
     [[menu.main]]
         name    = "Roadmap"
         url     = "/roadmap/"
-        weight = -4
+        weight = -5
 
     [[menu.main]]
         name    = "Blog"
         url     = "/blog/"
-        weight = -3
+        weight = -4
 
     [[menu.main]]
         name = "Team"
         url = "/team/"
-        weight = -2
+        weight = -3
 
     [[menu.main]]
         name = "Sponsors"
         url = "/sponsors/"
+        weight = -2
+
+    [[menu.main]]
+        name = "Download"
+        url = "/download/"
         weight = -1
 
     [[menu.main]]
