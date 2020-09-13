@@ -71,3 +71,14 @@
 }
 </script>
 {{ end }}
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@SerpentLinux" />
+<meta name="twitter:title" content="{{.Title}}" />
+<meta name="twitter:description" content="{{.Summary}}" />
+{{ if eq .Page.Type "post" }}
+<meta name="twitter:image" content="{{.Params.FeaturedImage}}" />
+{{ else }}
+<meta name="twitter:image" content="{{.Site.BaseURL}}/img/black_notext_0.5x.png" />
+{{ end }}
+
