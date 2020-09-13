@@ -1,7 +1,7 @@
 <meta property="og:title" content="{{.Title}}" />
 <meta property="og:url" content="{{.Permalink}}" />
 {{ if eq .Page.Type "post" }}
-<meta property="og:image" content="{{.Site.BaseURL}}{{.Params.FeaturedImage}}" />
+<meta property="og:image" content="https://serpentos.com/{{.Params.FeaturedImage}}" />
 <meta property="og:type" content="article" />
 {{ else }}
 <meta property="og:type" content="website" />
@@ -79,6 +79,6 @@
 {{ if eq .Page.Type "post" }}
 <meta name="twitter:image" content="{{.Params.FeaturedImage}}" />
 {{ else }}
-<meta name="twitter:image" content="{{.Site.BaseURL}}/img/black_notext_0.5x.png" />
+<meta name="twitter:image" content="https://serpentos.com/img/black_notext_0.5x.png" />
 {{ end }}
 
