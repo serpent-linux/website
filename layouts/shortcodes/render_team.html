@@ -2,7 +2,7 @@
 {{ with ($.Site.GetPage (printf "/%s" "contributors")) }}
     <div class="card-deck">
         {{ range .Pages }}
-        <div class="card shadow">
+        <div class="card shadow-lg">
             <div class="card-body">
                 <h4 class="card-title">{{.Params.name | safeHTML }}</h4>
                 <hr />
@@ -13,7 +13,6 @@
                     <i class="fa fa-hashtag"></i>&nbsp; IRC: <code>{{.Params.nick}}</code><br />
                     <i class="fa fa-envelope"></i>&nbsp; <a href="mailto:{{.Params.email | safeHTML }}">{{.Params.email}}</a><br />
                     <i class="fa fa-globe"></i>&nbsp; {{.Params.location}}<br />
-                    <i class="fa fa-gift"></i>&nbsp; {{.Params.sponsor | safeHTML }}
                 </p>
             </div>
         </div>

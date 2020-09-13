@@ -5,7 +5,7 @@ nick: "ulaas"
 sponsor: "Awaiting GitHub sponsors membership"
 team: "core"
 draft: false
-desc: "Project Manager and core contributor"
+desc: "The Manager Guy"
 location: "Turkey"
 email: "ulaas@serpentos.com"
 ---

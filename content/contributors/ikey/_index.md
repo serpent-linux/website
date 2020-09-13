@@ -1,11 +1,11 @@
 ---
 name: "Ikey Doherty"
-role: "Lead Architect"
+role: "Benevolent dictator for life"
 nick: "ikey"
 sponsor: "<a href='https://github.com/sponsors/ikeycode'>Sponsor on GitHub</a>"
 team: "core"
 draft: false
-desc: "Lead architect and engineer for Serpent OS"
+desc: "Benevolent dictator for life"
 location: "Republic Of Ireland"
 email: "ikey@serpentos.com"
 ---
