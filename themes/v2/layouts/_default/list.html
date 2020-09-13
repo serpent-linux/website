@@ -5,6 +5,14 @@
 {{ define "main" }}
 <main role="main">
 
+    <!-- Big Pretty Banner //-->
+    <center>
+        <div class="jumbotron jumbotron-fluid bg-info text-light my-0">
+            <h1>Blog</h1>
+            <p class="lead">We wrote stuff so that you might read it.</p>
+        </div>
+    </center>
+
     <div class="jumbotron jumbotron-fluid bg-light border-bottom">
         {{ with .Site.GetPage .Site.Params.FeaturedPost }}
             {{ partial "featuredBlog.html" . }}
