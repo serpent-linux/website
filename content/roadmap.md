@@ -5,7 +5,7 @@ draft: false
 Callout: "So close, you can taste the coffee."
 ---
 
-During our early stages of development we're taking our time, to ensure each decision that
+During our early stages of development we're taking our time, so that each decision
 we make will stand the test of time and ensure sustainability.
 
 {{<roadmap_bootstrap>}}
