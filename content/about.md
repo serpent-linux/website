@@ -7,11 +7,13 @@ Callout: "We have opinions, so we listed some of them."
 
 Serpent OS is building a pioneering new Linux distribution, with a focus on cutting edge technologies in a 100% open source project.
 
-Our aims:
+Our aims are to be:
 
- - Infinitely forkable
- - Infinitely flexible
- - Infinitely reliable
+ - Forkable
+ - Flexible
+ - Reliable
+ - Free
+ - Joy to use and be a part of
 
 #### Naming
 
