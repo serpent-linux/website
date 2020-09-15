@@ -1,10 +1,11 @@
 <div class="pt-3 px-5 py-4 border-bottom">
     <div class="row">
-        <div class="col-sm-4">
+        <div class="col-sm-4 my-2">
             <a href="{{.Permalink}}"><img src="{{.Params.FeaturedImage}}" class="img-fluid rounded" /></a>
         </div>
-        <div class="col">
-            <h5 class="title text-info">{{.Title}} <small class="text-right float-right text-muted">{{ .Date.Format "Monday, January 2, 2006" | safeHTML }}</small></h5>
+        <div class="col my-2">
+            <h5 class="title text-info">{{.Title}}</h5>
+             <small class="text-muted">{{ .Date.Format "Monday, January 2, 2006" | safeHTML }}</small><br />
             <small><i>Written by&nbsp;
             {{ range .Params.authors }}
                 {{ with $.Site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}
@@ -12,10 +13,12 @@
                 {{ end }}
             {{ end }}
             </i></small>
+            <small class="float-right text-right">
                 {{ range .Params.categories }}
                 {{ with $.Site.GetPage "taxonomyTerm" (printf "categories/%s" (urlize .)) }}
-                    <a href="{{.Permalink}}" class="float-right"><span class="badge badge-{{.Params.color}}">{{ .Params.name }}</span></a>
+                    &nbsp;<a href="{{.Permalink}}"><span class="badge badge-{{.Params.color}}">{{ .Params.name }}</span></a>&nbsp;
                 {{ end }}
+            </small>
             {{ end }}
             <br />
             <p>
