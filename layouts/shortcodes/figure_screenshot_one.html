@@ -1,5 +1,5 @@
 {{ $image := .Get "image" }}
 <figure class="figure">
-    <img src="/img/blog/{{$image}}.png" class="figure-img img-fluid z-depth-1">
-    <figcaption class="figure-caption">{{.Get "caption"}}</figcaption>
+    <img src="/img/blog/{{$image}}.png" class="img-fluid shadow img-thumbnail">
+    <figcaption class="figure-caption text-muted px-2 py-2">{{.Get "caption"}}</figcaption>
 </figure>
