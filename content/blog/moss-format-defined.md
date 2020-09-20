@@ -46,7 +46,7 @@ each unique file (i.e. the sha256sum) are stored within the `Index` payload, all
 from the "megablob" using `copy_file_range()`.
 
 These files will become part of the system hash store, allowing another level of deduplication between all system
-packages. Finally, we use the `Layout` payload to **apply** the layout of the package into a transactonal rootfs.
+packages. Finally, we use the `Layout` payload to **apply** the layout of the package into a transactional rootfs.
 This will define paths, such as `/usr/bin/nano`, along with permissions, types, etc. All regular files will actually
 be created as hard links from the hash store, allowing deduplication and snapshots.
 
@@ -70,7 +70,7 @@ Binary format that is self deduplicating at several layers, permitting fast tran
 
 Before we work any more on the binary format, we now need to pivot to the source format. Our immediate goal is to now
 have moss actually **build** packages from source, with resulting `.stone` packages. Once this step is complete we can
-work on installation, ugprades, repositories, etc, and race to becoming a self hosting distribution.
+work on installation, upgrades, repositories, etc, and race to becoming a self hosting distribution.
 
 Note, the format may still change before it goes into production, as we encounter more cases for optimisation or
 improvement.
