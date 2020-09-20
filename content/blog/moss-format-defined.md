@@ -41,7 +41,7 @@ Internally the representation of a Payload is defined as a 32-byte struct:
     PayloadCompression compression = PayloadCompression.Unknown; /* 1 byte */
 ```
 
-We merge all unique files in a package rootfs into the `Content` payload, and compress that using zlib. The offsets to
+We merge all unique files in a package rootfs into the `Content` payload, and compress that using zstd. The offsets to
 each unique file (i.e. the sha256sum) are stored within the `Index` payload, allowing us to extract relevant portions
 from the "megablob" using `copy_file_range()`.
 
