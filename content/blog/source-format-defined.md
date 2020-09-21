@@ -95,5 +95,5 @@ Our main motivation came from the tooling, which is written in the D language. W
 typed parser and explicit schema, and with a struct-based approach it made it more trivial to group similar
 definitions.
 
-Other than that, we have the same notions with the format, intellient automatic package splitting, ease of developer
+Other than that, we have the same notions with the format, intelligent automatic package splitting, ease of developer
 experience, etc.
