@@ -26,7 +26,7 @@ heart of our goals. Others have joined us on our journey, and expressed the same
 as we have. A community has formed around the project, with individuals sharing the same ambitions
 for a reliable, rolling operating system with a powerful package manager.
 
-{{<figure_screenshot_one image="results-of-the-experiment/Featured" caption="A very trivial package spec">}}
+{{<figure_screenshot_one image="results-of-the-experiment/Featured" caption="Toolchain bootstrap">}}
 
 
 #### An open community
