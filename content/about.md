@@ -32,8 +32,7 @@ more sensible design improvements in Linux distribution design over the last dec
 so:
 
  - No more usrbin split
- - 100% clang-built throughout (including kernel)
- - musl as libc for improved portability and debugging
+ - Almost entirely clang-built
  - `libc++` instead of `libstdc++`
  - LLVM's binutils variants (`lld`, `as`, etc.)
  - Mixed source/binary distribution
