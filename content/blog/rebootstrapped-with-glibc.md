@@ -56,7 +56,7 @@ On behalf of the team, I want to thank you from the bottom of our hearts. Once w
 dedicate ourselves to providing you with a reliable, up to date operating system that is always on the edge
 and always safe to upgrade, enabling you to do what **you** want to do. Our team has extensive and
 somewhat unique experience in building custom systems with high performance and reliability that
-caters for verything from devops to gaming.
+caters for everything from devops to gaming.
 
 When the project funds are high enough we'll order Raspberry Pis for myself and Peter to fully enable
 AArch64, and a new build box as my laptop is somewhat dated now. With your help, we can achieve
