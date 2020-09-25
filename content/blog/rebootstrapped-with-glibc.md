@@ -45,7 +45,7 @@ and have package git repositories on our infrastructure, and open up contributio
 intend to build a **sustainable** contribution led ecosystem so we can all get back to doing what we love
 most, using Linux on a daily basis to get stuff done.
 
-Some of you may know my signifcant other is expecting a child, or rather, she was expected yesterday.
+Some of you may know my significant other is expecting a child, or rather, she was expected yesterday.
 When this situation changes I will of course take some downtime to help the growing family and then
 return to work.
 
