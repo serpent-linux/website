@@ -53,7 +53,7 @@ return to work.
 
 At the time of writing, 18 amazing individuals have contributed to us on our [Open Collective](https://opencollective.com/serpent-os).
 On behalf of the team, I want to thank you from the bottom of our hearts. Once we leave bootstrap, we'll
-not fail to disappointed you with a reliable, up to date operating system that is always on the edge
+dedicate ourselves to providing you with a reliable, up to date operating system that is always on the edge
 and always safe to upgrade, enabling you to do what **you** want to do. Our team has extensive and
 somewhat unique experience in building custom systems with high performance and reliability that
 caters for verything from devops to gaming.
