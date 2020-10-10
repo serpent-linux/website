@@ -68,6 +68,12 @@ featuredPost = "/blog/stage3-complete"
         pre = "<i class='fab fa-github'></i>"
         weight = -4
 
+    [[menu.social]]
+        name = "youtube"
+        url = "https://www.youtube.com/channel/UCyGjpLXzRZdkD0Uc_uZJmaQ/"
+        pre = "<i class='fab fa-youtube'></i>"
+        weight = -5
+
 [privacy]
     [privacy.disqus]
         disable = true
