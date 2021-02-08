@@ -58,6 +58,6 @@ It'll allow super basic interaction with moss, and a small collection of utiliti
 can be used in a terminal environment. No display whatsoever. That can come in a future
 iteration :)
 
-ETA? ~~Definitely not by the 28th February~~. When it's done. 
+ETA? ~~Definitely not by the 28th of February~~. When it's done. 
 
 {{<giphy "qs6ev2pm8g9dS">}}
