@@ -34,7 +34,7 @@ in the format to correct idiomatic D-lang integration and module naming.
 
 Granted, cleanups aren't all that sexy. Peter has been updating many parts of
 the bootstrap project, introducing systemd 247.3, LLVM 11.0.1, etc. We now have
-all 3 stages building correclty again for the x86_64 target.
+all 3 stages building correctly again for the x86_64 target.
 
 #### And then....
 
