@@ -62,7 +62,7 @@ archives metadata, and of course, storing these records in a stateful system dat
 
 #### Thank you for the unnecessary update
 
-Oh you're quite welcome :P Hopefully now you can see our plan, and that we're track
+Oh you're quite welcome :P Hopefully now you can see our plan, and that we're on track
 to meet our not-28th target. Sure, some code needs throwing away, but all codebases
 are evolutionary. Our major hurdle has been solved (mentally) - now it's just time
 to implement it and let the good times roll.
