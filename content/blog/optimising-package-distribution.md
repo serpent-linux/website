@@ -44,13 +44,13 @@ This is of course due to the amazing decompression speeds where `zstd` is magnit
 {{<figure_screenshot_one image="optimising-package-distribution/Featured" caption="Compression levels with zstd">}}
 
 With maximum compression, large packages can take over a minute to compress. With a moderate increase in size, one can
-reduce compression time by 2-5x. While making me happier as a developer, it does create extra network load during
+reduce compression time by 2-10x. While making me happier as a developer, it does create extra network load during
 updates.
 
-| Full Package    | zstd -16 | zstd -19 | zstd -22 | xz -9  |
-|-----------------|----------|----------|----------|--------|
-| Time to create  | 25.6s    | 56.0s    | 70.6s    | 66.5s  |
-| Size of package | 54.4MB   | 51.2MB   | 48.4MB   | 45.9MB |
+| Full Package    | zstd -16 -T0 | zstd -16 | zstd -19 -T0 | zstd -19 | zstd -22 | xz -9  |
+|-----------------|--------------|----------|--------------|----------|----------|--------|
+| Time to create  | 5.4s         | 26.8s    | 27.8s        | 56.0s    | 70.6s    | 66.5s  |
+| Size of package | 52.6MB       | 52.6MB   | 49.2MB       | 49.2MB   | 48.4MB   | 45.9MB |
 
 #### Deltas to the Rescue!
 
